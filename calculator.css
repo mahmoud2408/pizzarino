@@ -1,4 +1,5 @@
 body {
+  margin-top: 70px;
   background-color: #353d5b;
   display: flex;
   align-items: center;
@@ -53,6 +54,7 @@ body {
   background-color: #647299;
   box-shadow: 0 5px #424c66;
   color: beige;
+  padding: 2px;
 }
 .re {
   margin-top: 20px;
@@ -75,10 +77,46 @@ body {
   .display {
     width: 300px;
   }
+  #del {
+    width: 80px;
+    font-size: 18pt;
+  }
 }
 @media screen and (max-width: 350px) {
   .container,
   .display {
     width: 200px;
+  }
+  #del {
+    width: 40px;
+    font-size: 13pt;
+  }
+}
+@media screen and (max-width: 270px) {
+  .container,
+  .display {
+    width: 150px;
+  }
+  .btn {
+    font-size: 8pt;
+    font-weight: 800;
+  }
+  #del {
+    width: 40px;
+    font-size: 8pt;
+  }
+}
+@media screen and (max-width: 220px) {
+  .container,
+  .display {
+    width: 120px;
+  }
+  .btn {
+    font-size: 8pt;
+    font-weight: 800;
+  }
+  #del {
+    width: 20px;
+    font-size: 5pt;
   }
 }
