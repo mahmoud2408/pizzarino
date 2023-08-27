@@ -31,18 +31,28 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-gap: 8px;
+  grid-gap: 15px;
   border-radius: 10px;
 }
 .btn {
   border-radius: 10px;
   height: 70px;
   font-size: 26pt;
+  font-weight: 400;
   background-color: #eae3db;
   border: none;
+  color: #627097;
+  box-shadow: 0 5px #ae9375;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.75;
+  transition: 0.15s;
 }
 #del {
   background-color: #647299;
+  box-shadow: 0 5px #424c66;
+  color: beige;
 }
 .re {
   margin-top: 20px;
@@ -52,10 +62,12 @@ body {
 }
 #reset {
   background-color: #627097;
+  box-shadow: 0 5px #424c66;
   color: beige;
 }
 #equal {
   background-color: #d13f30;
+  box-shadow: 0 5px #ab3326;
   color: beige;
 }
 @media screen and (max-width: 480px) {
